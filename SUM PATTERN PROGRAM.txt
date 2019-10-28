@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int a,b=0,n,i,sum=0;
+	printf("Enter the limit number");
+	scanf("%d",&n);
+	printf("Enter the first number");
+	scanf("%d",&a);
+	
+	for(i=1;i<=n;i++)
+	{
+		b=10*b+a;
+		
+		
+	
+		sum=sum+b;
+		
+	}
+	printf("%d",sum);
+	return 0;
+}

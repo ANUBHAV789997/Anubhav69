@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main ()
+{
+	int a,sum=0,b;
+	printf("enter a number");
+	scanf("%d",&a);
+	if(a/2!=0)
+	{
+		b=1;
+		while(b<=a)
+		{
+			sum=sum+b;
+			b=b+2;
+		}
+		printf("%d",sum);
+	}
+	else
+	{
+		b=2;
+		while(b<=a)
+		{
+			sum=sum+b;
+			b++;
+		}
+		printf("%d",sum);
+	}
+	return 0 ;
+}

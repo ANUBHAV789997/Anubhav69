@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,j,k,l;
+	printf("enter the number for which you want to find the table");
+	scanf("%d",&a);
+	printf("enter the number till you want to find table");
+	scanf("%d",&b);
+	j=1;
+	while(j<=b)
+	{
+		l=a*j;
+		j++;
+		printf("\n %d",l);
+	}
+	return 0 ;
+}

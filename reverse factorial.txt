@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void)
+{
+	int a,b=1,count;
+	printf("enter the factorial");
+	scanf("%d",&a);
+	if(a%2!=0)
+	printf("the factorial is invalid");
+	else{	
+	for(count=1;b<a;count++)
+	b=b*count;
+	printf("the value is %d",count-1);	
+	}
+     }
+	

@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,sum=0;
+	printf(" PLEASE ENTER THE NUMBER - ");
+	scanf("%d",&a);
+	b=2;
+	while(b<=a)
+	{
+		if(b%2==0)
+		{
+		
+		printf("\n %d",b);
+	}
+		b++;
+	
+	}
+	b=2;
+	while (b<=a)
+	{
+		sum=sum+b;
+		b=b+2;
+	}
+	printf("\n the sum is %d",sum);
+	printf(" \n THIS IS FUCKIN DOPE ");
+	return 0; 
+}
